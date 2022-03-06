@@ -7,6 +7,21 @@ golang 高德地图api
 go get github.com/ximoqing/goamap
 `
 
+## 使用
+```go
+package main
+
+import (
+    "github.com/ximoqing/goamap"
+)
+
+func main() {
+    ip := goamap.IpJson("你的高德key"，"要定位的ip")
+    fmt.Println(ip)
+}
+
+```
+
 ## api功能
 - [X] 地理/逆地理编码
 - [X] 路径规划/路径规划 v2
