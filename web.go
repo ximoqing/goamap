@@ -189,3 +189,5 @@ func Inputtips(key, keywords string) string {
 	}
 	return string(con)
 }
+
+//
